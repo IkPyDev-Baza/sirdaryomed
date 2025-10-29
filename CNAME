@@ -1,0 +1,39 @@
+sirdaryomed.uz
+```
+
+### 2. GitHub Pages sozlamalari
+
+1. Repository'ga o'ting: `https://github.com/ikpydev-baza/sirdaryomed`
+2. **Settings** > **Pages** ga boring
+3. **Custom domain** qismiga yozing: `sirdaryomed.uz`
+4. **Save** bosing
+5. **Enforce HTTPS** ni belgilang (bir oz vaqt kutish kerak)
+
+### 3. DNS sozlamalari (Domain provayderda)
+
+Domeningizni sotib olgan joyda (UZINFOCOM, reg.uz, yoki boshqa) quyidagi DNS recordlarni qo'shing:
+
+#### ✅ A Records (4 ta):
+```
+Type: A
+Host: @ (yoki bo'sh qoldiring)
+Value: 185.199.108.153
+
+Type: A
+Host: @ (yoki bo'sh qoldiring)
+Value: 185.199.109.153
+
+Type: A
+Host: @ (yoki bo'sh qoldiring)
+Value: 185.199.110.153
+
+Type: A
+Host: @ (yoki bo'sh qoldiring)
+Value: 185.199.111.153
+```
+
+#### ✅ CNAME Record (www uchun):
+```
+Type: CNAME
+Host: www
+Value: ikpydev-baza.github.io
