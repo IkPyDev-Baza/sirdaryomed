@@ -1,288 +1,863 @@
 <!DOCTYPE html>
-<html lang="en">
-	<head>
-		<title>Healthcare</title>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		
-		<link href="css/styles.css" rel="stylesheet">
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;600;700&display=swap" rel="stylesheet">
-		<link rel="icon" type="image/png" href="images/icons/flaticon.png" sizes="32x32">
-	</head>
-	
-	<body>
-		<header class="header">
-			<div class="header__h-container h-container">
-				<a class="header__logo logo" href="index.html">
-					<img class="logo__logo-img" src="images/header/logo.svg" alt="Logo">
-					Trafalgar
-				</a>
-				<nav class="header__menu menu">
-					<button class="menu__menu-button">&equiv;</button>
-					<div class="menu__sublist">		
-						<a class="menu__link" href="index.html">Home</a>
-						<a class="menu__link" href="#7">Find a doctor</a>
-						<a class="menu__link" href="#0">Apps</a>
-						<a class="menu__link" href="#2">Testimonials</a>
-						<a class="menu__link" href="#1">About us</a>
-					</div>
-				</nav>
-			</div>
-		</header>
-		<main class="page">
-			<section class="page__cover cover">
-				<div class="cover__h-container h-container">
-					<div class="cover__dots">
-						<img class="cover__dots-img" src="images/cover/dots-1.png" alt="Dots">
-					</div>
-					<div class="cover__text-block">
-						<h1 class="cover__title">Virtual healthcare for you</h1>
-						<div class="cover__text">Trafalgar provides progressive, and affordable healthcare, accessible on mobile and online for everyone</div>
-						<button class="cover__button">Consult today</button>
-					</div>
-					<div class="cover__image">
-						<img class="cover__people" src="images/cover/peoples.jpg" alt="Peoples">
-					</div>
-				</div>
-			</section>
-			<section class="page__services services">
-				<div class="services__container container">
-					<div class="services__dots"><img src="images/services/dots.png" alt="Dots"></div>
-					<div class="services__description">
-						<h2 class="services__title title">Our services</h2>
-						<div class="services__text">We provide to you the best choiches for you. Adjust it to your health needs and make sure your undergo treatment with our highly qualified doctors you can consult with us which type of service is suitable for your health</div>
-					</div>
-					<ul class="services__list">
-						<li class="services__item item">
-							<div class="item__image"><img src="images/services/search.jpg" alt="Search doctor"></div>
-							<div class="item__block">
-								<div class="item__title">Search doctor</div>
-								<div class="item__text">Choose your doctor from thousands of specialist, general, and trusted hospitals</div>
-							</div>
-						</li>
-						<li class="services__item item">
-							<div class="item__image"><img src="images/services/pharmacy.jpg" alt="Pharmacy"></div>
-							<div class="item__block">
-								<div class="item__title">Online pharmacy</div>
-								<div class="item__text">Buy  your medicines with our mobile application with a simple delivery system
-								</div>
-							</div>
-						</li>
-						<li class="services__item item">
-							<div class="item__image"><img src="images/services/consultation.jpg" alt="Consultation"></div>
-							<div class="item__block">
-								<div class="item__title">Consultation</div>
-								<div class="item__text">Free consultation with our trusted doctors and get the best recomendations</div>
-							</div>
-						</li>
-						<li class="services__item item">
-							<div class="item__image"><img src="images/services/details.jpg" alt="Details"></div>
-							<div class="item__block">
-								<div class="item__title">Details info</div>
-								<div class="item__text">Free consultation with our trusted doctors and get the best recomendations</div>
-							</div>
-						</li>
-						<li class="services__item item">
-							<div class="item__image"><img src="images/services/emergency.jpg" alt="Emergency"></div>
-							<div class="item__block">
-								<div class="item__title">Emergency care</div>
-								<div class="item__text">You can get 24/7 urgent care for yourself or your children and your lovely family</div>
-							</div>
-						</li>
-						<li class="services__item item">
-							<div class="item__image"><img src="images/services/tracking.jpg" alt="Tracking"></div>
-							<div class="item__block">
-								<div class="item__title">Tracking</div>
-								<div class="item__text">Track and save your medical history and health data</div>
-							</div>
-						</li>
-					</ul>
-					<button class="services__button border-button">Learn more</button>
-				</div>
-			</section>
-			<div class="page__advt advt">
-				<div class="advt__container container">
-					<div class="advt__dots"><img class="advt__dots-img" src="images/ads/dots.png" alt="Dots"></div>
-					<div class="advt__providers info">
-						<div class="info-image__image1 info-image"><img class="info-image__img" src="images/ads/healthcare-leaders.png" alt="Leaders"></div>
-						<div class="info__text-block">
-							<h2 class="info__title title">Leading healthcare providers</h2>
-							<div class="info__text">Trafalgar provides progressive, and affordable healthcare, accessible on mobile and online for everyone. To us, it’s not just work. We take pride in the solutions we deliver
-							</div>
-							<button class="info__button border-button">Learn more</button>
-						</div>
-					</div>
-					<div class="advt__apps info">
-						<div class="info-image__image2 info-image"><img class="info-image__img" src="images/ads/apps.png" alt="Mobile Apps"></div>
-						<div class="info__text-block">
-							<h2 class="info__title title">Download our mobile apps</h2>
-							<div class="info__text">Our dedicated patient engagement app and web portal allow you to access information instantaneously (no tedeous form, long calls, or administrative hassle) and securely
-							</div>
-							<button class="info__button border-button"><span class="info__button-text">Download</span></button>
-						</div>	
-					</div>
-				</div>
-			</div>
-			<section class="page__feedback feedback">
-				<div class="feedback__container container">
-					<div class="feedback__dots1"><img src="images/feedback/dots-left.png" alt="Dots group 1"></div>
-					<div class="feedback__dots2"><img src="images/feedback/dots-right.png" alt="Dots group 2"></div>
-					<ul class="feedback__list">
-						<li class="feedback__card card">
-							<h2 class="card__title">What our customer are saying</h2>
-							<div class="card__comment">
-								<div class="card__author">
-									<div class="card__photo"><img class="card__img" src="images/feedback/photo.png" alt="Edward Newgate"></div>
-									<div class="card__info">
-										<div class="card__name">Edward Newgate</div>
-										<div class="card__position">Founder Circle</div>
-									</div>
-								</div>
-								<div class="card__text">
-									“Our dedicated patient engagement app and web portal allow you to access information instantaneously (no tedeous form, long calls, or administrative hassle) and securely”
-								</div>
-							</div>
-						</li>
-						<li class="feedback__card card">
-							<h2 class="card__title">What our customer are saying</h2>
-							<div class="card__comment">
-								<div class="card__author">
-									<div class="card__photo"><img class="card__img" src="images/feedback/photo.png" alt="Edward Newgate"></div>
-									<div class="card__info">
-										<div class="card__name">Jack Bluesty</div>
-										<div class="card__position">Founder Circle</div>
-									</div>
-								</div>
-								<div class="card__text">
-									“Facebook is a social networking site that makes it easy for you to connect and share with family and friends online. Originally designed for college students. ”
-								</div>
-							</div>
-						</li>
-						<li class="feedback__card card">
-							<h2 class="card__title">What our customer are saying</h2>
-							<div class="card__comment">
-								<div class="card__author">
-									<div class="card__photo"><img class="card__img" src="images/feedback/photo.png" alt="Edward Newgate"></div>
-									<div class="card__info">
-										<div class="card__name">Edward Newgate</div>
-										<div class="card__position">Founder Circle</div>
-									</div>
-								</div>
-								<div class="card__text">
-									“By 2006, anyone over the age of 13 with a valid email address could join Facebook. Today, Facebook is the world's largest social network, with more than 1 billion users worldwide.”
-								</div>
-							</div>
-						</li>
-						<li class="feedback__card card">
-							<h2 class="card__title">What our customer are saying</h2>
-							<div class="card__comment">
-								<div class="card__author">
-									<div class="card__photo"><img class="card__img" src="images/feedback/photo.png" alt="Edward Newgate"></div>
-									<div class="card__info">
-										<div class="card__name">Nick Arrow</div>
-										<div class="card__position">Founder Circle</div>
-									</div>
-								</div>
-								<div class="card__text">
-									“Facebook allows you to send messages and post status updates to keep in touch with friends and family. You can also share different types of content, like photos and links.”
-								</div>
-							</div>
-						</li>
-					</ul>
-					<div class="feedback__switcher">
-						<button class="feedback__button-left" onclick="clickLeft()">
-							<img src="images/feedback/arrow-left.png" alt="Left arrow">
-						</button>
-						<div class="feedback__pagination">
-							<button class="feedback__small-dot" id="btn1"></button>
-							<button class="feedback__small-dot" id="btn2"></button>
-							<button class="feedback__small-dot" id="btn3"></button>
-							<button class="feedback__small-dot" id="btn4"></button>
-						</div>
-						<button class="feedback__button-right" onclick="clickRight()">
-							<img src="images/feedback/arrow-right.png" alt="Right arrow">
-						</button>
-					</div>
-				</div>
-			</section>
-			<section class="page__articles articles">
-				<div class="articles__container container">
-					<h2 class="articles__title title">Check out our latest article</h2>
-					<ul class="articles__list">
-						<li class="articles__block block">
-							<div class="block__image"><img class="block__img" src="images/articles/detection.jpg" alt="Diseases detection"></div>
-							<div class="block__text-part">
-								<div class="block__title">Disease detection, check up in the laboratory</div>
-								<div class="block__text">In this case, the role of the health laboratory is very important to do a disease detection...</div>
-								<a class="block__link" href="#">Read more</a>
-							</div>
-						</li>
-						<li class="articles__block block">
-							<div class="block__image"><img class="block__img" src="images/articles/herbals.jpg" alt="Herbals"></div>
-							<div class="block__text-part">
-								<div class="block__title">Herbal medicines that are safe for consumption</div>
-								<div class="block__text">Herbal medicine is very widely used at this time because of its very good for your health...</div>
-								<a class="block__link" href="#">Read more</a>
-							</div>
-						</li>
-						<li class="articles__block block">
-							<div class="block__image"><img class="block__img" src="images/articles/facial-skin.jpg" alt="Facial skin"></div>
-							<div class="block__text-part">
-								<div class="block__title">Natural care for healthy facial skin</div>
-								<div class="block__text">A healthy lifestyle should start from now and also for your skin health. There are some...</div>
-								<a class="block__link" href="#">Read more</a>
-							</div>
-						</li>
-					</ul>
-					<button class="articles__button border-button">View all</button>
-				</div>
-			</section>	
-		</main>
-		<footer class="footer">
-			<div class="footer__h-container h-container">
-				<div class="footer__main-info">
-					<div class="footer__logo logo">
-						<img class="logo__logo-img" src="images/footer/logo.svg" alt="Logo">
-						Trafalgar
-					</div>
-					<div class="footer__text">
-						Trafalgar provides progressive, and affordable healthcare, accessible on mobile and online for everyone
-					</div>
-					<div class="footer__copy">&copy; Trafalgar PTY LTD 2020. All rights reserved</div>
-				</div>
-				<div class="footer__navigation navigation">
-					<div class="navigation__title">Company</div>
-					<ul class="navigation__list">
-						<li class="navigation__item"><a href="#" class="navigation__link">About</a></li>
-						<li class="navigation__item"><a href="#" class="navigation__link">Testimonials</a></li>
-						<li class="navigation__item"><a href="#" class="navigation__link">Find a doctor</a></li>
-						<li class="navigation__item"><a href="#" class="navigation__link">Apps</a></li>
-					</ul>
-				</div>
-				<div class="footer__navigation navigation">
-					<div class="navigation__title">Region</div>
-					<ul class="navigation__list">
-						<li class="navigation__item"><a href="#" class="navigation__link">Indonesia</a></li>
-						<li class="navigation__item"><a href="#" class="navigation__link">Singapore</a></li>
-						<li class="navigation__item"><a href="#" class="navigation__link">Hongkong</a></li>
-						<li class="navigation__item"><a href="#" class="navigation__link">Canada</a></li>
-					</ul>
-				</div>
-				<div class="footer__navigation navigation">
-					<div class="navigation__title">Help</div>
-					<ul class="navigation__list">
-						<li class="navigation__item"><a href="#" class="navigation__link">Help center</a></li>
-						<li class="navigation__item"><a href="#" class="navigation__link">Contact support</a></li>
-						<li class="navigation__item"><a href="#" class="navigation__link">Instructions</a></li>
-						<li class="navigation__item"><a href="#" class="navigation__link">How it works</a></li>
-					</ul>
-				</div>
-			</div>
-		</footer>
-	<script src="js/menu-visibility.js"></script>
-	<script src="js/menu-changing-option.js"></script>
-	<script src="js/slider-comments.js"></script>
-	</body>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sirdaryo Yuqumli Kasalliklar Shifoxonasi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Mulish', sans-serif;
+            color: #1F2937;
+            line-height: 1.6;
+        }
+
+        .h-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .container {
+            max-width: 1120px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Header */
+        .header {
+            background: #fff;
+            padding: 20px 0;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header__h-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-size: 24px;
+            font-weight: 700;
+            color: #1F2937;
+            text-decoration: none;
+        }
+
+        .logo__logo-img {
+            width: 40px;
+            height: 40px;
+        }
+
+        .menu__sublist {
+            display: flex;
+            gap: 30px;
+            align-items: center;
+        }
+
+        .menu__link {
+            color: #1F2937;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+
+        .menu__link:hover {
+            color: #458FF6;
+        }
+
+        .menu__menu-button {
+            display: none;
+            font-size: 28px;
+            background: none;
+            border: none;
+            cursor: pointer;
+        }
+
+        /* Cover Section */
+        .cover {
+            padding: 80px 0;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .cover__h-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            align-items: center;
+            position: relative;
+        }
+
+        .cover__dots {
+            position: absolute;
+            top: -50px;
+            right: -50px;
+            opacity: 0.3;
+            z-index: 0;
+        }
+
+        .cover__text-block {
+            position: relative;
+            z-index: 1;
+        }
+
+        .cover__title {
+            font-size: 48px;
+            font-weight: 700;
+            color: #000;
+            margin-bottom: 25px;
+            line-height: 1.2;
+        }
+
+        .cover__text {
+            font-size: 18px;
+            color: #7D7987;
+            margin-bottom: 35px;
+            line-height: 1.8;
+        }
+
+        .cover__button {
+            background: #458FF6;
+            color: #fff;
+            border: none;
+            padding: 16px 42px;
+            font-size: 18px;
+            font-weight: 700;
+            border-radius: 55px;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .cover__button:hover {
+            background: #3576D6;
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(69, 143, 246, 0.3);
+        }
+
+        .cover__image img {
+            width: 100%;
+            border-radius: 20px;
+            box-shadow: 0 20px 50px rgba(0,0,0,0.1);
+        }
+
+        /* Title */
+        .title {
+            font-size: 36px;
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 20px;
+            color: #000;
+        }
+
+        /* Services Section */
+        .services {
+            padding: 80px 0;
+            background: #fff;
+            position: relative;
+        }
+
+        .services__dots {
+            position: absolute;
+            top: 50px;
+            left: 0;
+            opacity: 0.2;
+        }
+
+        .services__description {
+            text-align: center;
+            max-width: 750px;
+            margin: 0 auto 60px;
+        }
+
+        .services__text {
+            font-size: 18px;
+            color: #7D7987;
+            line-height: 1.8;
+        }
+
+        .services__list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 35px;
+            list-style: none;
+            margin-bottom: 50px;
+        }
+
+        .services__item {
+            background: #fff;
+            padding: 45px 35px;
+            border-radius: 20px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.08);
+            transition: all 0.3s;
+        }
+
+        .services__item:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 50px rgba(69, 143, 246, 0.15);
+        }
+
+        .item__image {
+            width: 90px;
+            height: 90px;
+            margin-bottom: 25px;
+        }
+
+        .item__image img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+
+        .item__title {
+            font-size: 22px;
+            font-weight: 700;
+            margin-bottom: 15px;
+            color: #000;
+        }
+
+        .item__text {
+            font-size: 16px;
+            color: #7D7987;
+            line-height: 1.7;
+        }
+
+        .border-button {
+            display: block;
+            margin: 0 auto;
+            padding: 14px 40px;
+            font-size: 18px;
+            font-weight: 700;
+            color: #458FF6;
+            background: #fff;
+            border: 1.4px solid #458FF6;
+            border-radius: 55px;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .border-button:hover {
+            background: #458FF6;
+            color: #fff;
+            transform: translateY(-2px);
+        }
+
+        /* Info Section */
+        .advt {
+            padding: 80px 0;
+            background: #F7F9FC;
+        }
+
+        .info {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            align-items: center;
+            margin-bottom: 100px;
+        }
+
+        .info:last-child {
+            margin-bottom: 0;
+        }
+
+        .advt__apps {
+            grid-template-columns: 1fr 1fr;
+        }
+
+        .advt__apps .info-image {
+            order: 2;
+        }
+
+        .info-image img {
+            width: 100%;
+            border-radius: 15px;
+        }
+
+        .info__title {
+            font-size: 36px;
+            font-weight: 700;
+            margin-bottom: 20px;
+            text-align: left;
+        }
+
+        .info__text {
+            font-size: 18px;
+            color: #7D7987;
+            line-height: 1.8;
+            margin-bottom: 30px;
+        }
+
+        /* Diseases Section */
+        .diseases {
+            padding: 80px 0;
+            background: #fff;
+        }
+
+        .diseases__list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+            list-style: none;
+            margin-bottom: 50px;
+        }
+
+        .disease-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #fff;
+            padding: 40px 30px;
+            border-radius: 20px;
+            transition: all 0.3s;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .disease-card::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%);
+            transition: all 0.5s;
+        }
+
+        .disease-card:hover::before {
+            transform: scale(1.2);
+        }
+
+        .disease-card:hover {
+            transform: translateY(-10px) scale(1.02);
+            box-shadow: 0 20px 50px rgba(102, 126, 234, 0.4);
+        }
+
+        .disease-card:nth-child(2) {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+        }
+
+        .disease-card:nth-child(3) {
+            background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+        }
+
+        .disease-card:nth-child(4) {
+            background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);
+        }
+
+        .disease-card:nth-child(5) {
+            background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);
+        }
+
+        .disease-card:nth-child(6) {
+            background: linear-gradient(135deg, #30cfd0 0%, #330867 100%);
+        }
+
+        .disease-card__icon {
+            font-size: 48px;
+            margin-bottom: 20px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .disease-card__title {
+            font-size: 24px;
+            font-weight: 700;
+            margin-bottom: 15px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .disease-card__text {
+            font-size: 15px;
+            line-height: 1.7;
+            opacity: 0.95;
+            position: relative;
+            z-index: 1;
+        }
+
+        /* Footer */
+        .footer {
+            background: linear-gradient(183deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+            padding: 60px 0 30px;
+            color: #fff;
+        }
+
+        .footer__h-container {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr 1fr;
+            gap: 50px;
+            margin-bottom: 30px;
+        }
+
+        .footer__text {
+            margin: 20px 0;
+            line-height: 1.8;
+            opacity: 0.9;
+        }
+
+        .footer__copy {
+            opacity: 0.8;
+            font-size: 14px;
+        }
+
+        .navigation__title {
+            font-size: 20px;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+
+        .navigation__list {
+            list-style: none;
+        }
+
+        .navigation__item {
+            margin-bottom: 12px;
+        }
+
+        .navigation__link {
+            color: #fff;
+            text-decoration: none;
+            opacity: 0.9;
+            transition: opacity 0.3s;
+        }
+
+        .navigation__link:hover {
+            opacity: 1;
+            text-decoration: underline;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .cover__h-container,
+            .info {
+                grid-template-columns: 1fr;
+            }
+
+            .cover__title {
+                font-size: 36px;
+            }
+
+            .title {
+                font-size: 28px;
+            }
+
+            .menu__sublist {
+                display: none;
+            }
+
+            .menu__menu-button {
+                display: block;
+            }
+
+            .footer__h-container {
+                grid-template-columns: 1fr;
+                gap: 30px;
+            }
+
+            .advt__apps .info-image {
+                order: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="header__h-container h-container">
+            <a class="logo" href="#">
+                <svg class="logo__logo-img" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M20 40C31.0457 40 40 31.0457 40 20C40 8.9543 31.0457 0 20 0C8.9543 0 0 8.9543 0 20C0 31.0457 8.9543 40 20 40Z" fill="#458FF6"/>
+                    <path d="M20 10V30M10 20H30" stroke="white" stroke-width="3" stroke-linecap="round"/>
+                </svg>
+                Sirdaryo YKSh
+            </a>
+            <nav class="menu">
+                <button class="menu__menu-button">≡</button>
+                <div class="menu__sublist">
+                    <a class="menu__link" href="#home">Bosh sahifa</a>
+                    <a class="menu__link" href="#services">Xizmatlar</a>
+                    <a class="menu__link" href="#diseases">Kasalliklar</a>
+                    <a class="menu__link" href="#about">Biz haqimizda</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main class="page">
+        <section class="cover" id="home">
+            <div class="cover__h-container h-container">
+                <div class="cover__text-block">
+                    <h1 class="cover__title">Sirdaryo viloyati Yuqumli kasalliklar shifoxonasi</h1>
+                    <div class="cover__text">
+                        Biz yuqumli kasalliklarni davolash va oldini olish bo'yicha malakali tibbiy xizmatlarni taqdim etamiz. Zamonaviy uskunalar va tajribali mutaxassislar bilan sog'ligingiz bizning birinchi vazifamiz.
+                    </div>
+                    <button class="cover__button">Qabul yozilish</button>
+                </div>
+                <div class="cover__image">
+                    <svg width="100%" height="400" viewBox="0 0 600 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="600" height="400" rx="20" fill="#E8F3FC"/>
+                        <circle cx="300" cy="180" r="80" fill="#458FF6"/>
+                        <rect x="260" y="160" width="80" height="10" rx="5" fill="white"/>
+                        <rect x="295" y="125" width="10" height="80" rx="5" fill="white"/>
+                        <path d="M200 320C200 280 240 260 300 260C360 260 400 280 400 320" stroke="#458FF6" stroke-width="8" stroke-linecap="round"/>
+                        <circle cx="220" cy="200" r="30" fill="#A0D8F1"/>
+                        <circle cx="380" cy="200" r="30" fill="#A0D8F1"/>
+                    </svg>
+                </div>
+            </div>
+        </section>
+
+        <section class="services" id="services">
+            <div class="services__container container">
+                <div class="services__description">
+                    <h2 class="title">Bizning xizmatlarimiz</h2>
+                    <div class="services__text">
+                        Biz sizga yuqori malakali shifokorlar va zamonaviy tibbiy uskunalar yordamida yuqumli kasalliklarni aniqlash, davolash va oldini olish bo'yicha keng ko'lamli xizmatlarni taqdim etamiz.
+                    </div>
+                </div>
+                <ul class="services__list">
+                    <li class="services__item">
+                        <div class="item__image">
+                            <svg width="90" height="90" viewBox="0 0 90 90" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="45" cy="45" r="45" fill="#E8F3FC"/>
+                                <path d="M45 25C33.95 25 25 33.95 25 45C25 56.05 33.95 65 45 65C56.05 65 65 56.05 65 45C65 33.95 56.05 25 45 25ZM45 60C36.73 60 30 53.27 30 45C30 36.73 36.73 30 45 30C53.27 30 60 36.73 60 45C60 53.27 53.27 60 45 60Z" fill="#458FF6"/>
+                                <circle cx="45" cy="45" r="8" fill="#458FF6"/>
+                            </svg>
+                        </div>
+                        <div class="item__block">
+                            <div class="item__title">Diagnostika</div>
+                            <div class="item__text">Zamonaviy laboratoriya uskunalari yordamida yuqumli kasalliklarni aniq va tez aniqlash</div>
+                        </div>
+                    </li>
+                    <li class="services__item">
+                        <div class="item__image">
+                            <svg width="90" height="90" viewBox="0 0 90 90" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="45" cy="45" r="45" fill="#FDE8E8"/>
+                                <path d="M45 25V45L58 52" stroke="#F25E5E" stroke-width="4" stroke-linecap="round"/>
+                                <circle cx="45" cy="45" r="20" stroke="#F25E5E" stroke-width="3" fill="none"/>
+                            </svg>
+                        </div>
+                        <div class="item__block">
+                            <div class="item__title">24/7 Shoshilinch yordam</div>
+                            <div class="item__text">Tunda va kunduzgi kun davomida shoshilinch tibbiy yordam xizmati</div>
+                        </div>
+                    </li>
+                    <li class="services__item">
+                        <div class="item__image">
+                            <svg width="90" height="90" viewBox="0 0 90 90" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="45" cy="45" r="45" fill="#E8FCF0"/>
+                                <rect x="35" y="30" width="20" height="30" rx="2" fill="#3ECC7F"/>
+                                <circle cx="45" cy="35" r="3" fill="white"/>
+                                <rect x="38" y="42" width="14" height="2" rx="1" fill="white"/>
+                                <rect x="38" y="48" width="14" height="2" rx="1" fill="white"/>
+                                <rect x="38" y="54" width="10" height="2" rx="1" fill="white"/>
+                            </svg>
+                        </div>
+                        <div class="item__block">
+                            <div class="item__title">Statsionar davolash</div>
+                            <div class="item__text">To'liq jihozlangan palatalarda sifatli statsionar davolash xizmati</div>
+                        </div>
+                    </li>
+                    <li class="services__item">
+                        <div class="item__image">
+                            <svg width="90" height="90" viewBox="0 0 90 90" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="45" cy="45" r="45" fill="#FFF6E8"/>
+                                <path d="M35 45C35 38.37 40.37 33 47 33H43C36.37 33 31 38.37 31 45C31 51.63 36.37 57 43 57H47C40.37 57 35 51.63 35 45Z" fill="#FFA500"/>
+                                <path d="M55 45C55 51.63 49.63 57 43 57C49.63 57 55 51.63 55 45C55 38.37 49.63 33 43 33C49.63 33 55 38.37 55 45Z" fill="#FFB732"/>
+                            </svg>
+                        </div>
+                        <div class="item__block">
+                            <div class="item__title">Emlash</div>
+                            <div class="item__text">Turli xil yuqumli kasalliklarga qarshi profilaktik emlash dasturlari</div>
+                        </div>
+                    </li>
+                    <li class="services__item">
+                        <div class="item__image">
+                            <svg width="90" height="90" viewBox="0 0 90 90" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="45" cy="45" r="45" fill="#F0E8FF"/>
+                                <path d="M40 35H50C52.21 35 54 36.79 54 39V51C54 53.21 52.21 55 50 55H40C37.79 55 36 53.21 36 51V39C36 36.79 37.79 35 40 35Z" stroke="#9F5FFF" stroke-width="3" fill="none"/>
+                                <line x1="36" y1="42" x2="54" y2="42" stroke="#9F5FFF" stroke-width="2"/>
+                                <circle cx="45" cy="48" r="2" fill="#9F5FFF"/>
+                            </svg>
+                        </div>
+                        <div class="item__block">
+                            <div class="item__title">Maslahat</div>
+                            <div class="item__text">Mutaxassis shifokorlar tomonidan bepul maslahat va yo'l-yo'riq</div>
+                        </div>
+                    </li>
+                    <li class="services__item">
+                        <div class="item__image">
+                            <svg width="90" height="90" viewBox="0 0 90 90" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="45" cy="45" r="45" fill="#FFE8F0"/>
+                                <path d="M45 32L48 38L55 39L50 44L51 51L45 48L39 51L40 44L35 39L42 38L45 32Z" fill="#FF5588"/>
+                            </svg>
+                        </div>
+                        <div class="item__block">
+                            <div class="item__title">Kuzatuv</div>
+                            <div class="item__text">Davolanish jarayonida va keyin muntazam tibbiy kuzatuv</div>
+                        </div>
+                    </li>
+                </ul>
+                <button class="border-button">Batafsil ma'lumot</button>
+            </div>
+        </section>
+
+        <div class="advt" id="about">
+            <div class="advt__container container">
+                <div class="advt__providers info">
+                    <div class="info-image">
+                        <svg width="100%" height="350" viewBox="0 0 500 350" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="500" height="350" rx="15" fill="#F0F7FF"/>
+                            <rect x="100" y="80" width="300" height="200" rx="10" fill="white"/>
+                            <rect x="130" y="110" width="80" height="80" rx="40" fill="#458FF6"/>
+                            <path d="M160 135V155M150 145H170" stroke="white" stroke-width="4" stroke-linecap="round"/>
+                            <rect x="230" y="120" width="140" height="15" rx="7.5" fill="#E0E0E0"/>
+                            <rect x="230" y="145" width="100" height="12" rx="6" fill="#E0E0E0"/>
+                            <rect x="130" y="210" width="240" height="10" rx="5" fill="#F0F0F0"/>
+                            <rect x="130" y="230" width="200" height="10" rx="5" fill="#F0F0F0"/>
+                            <rect x="130" y="250" width="180" height="10" rx="5" fill="#F0F0F0"/>
+                        </svg>
+                    </div>
+                    <div class="info__text-block">
+                        <h2 class="info__title">Tajribali mutaxassislar</h2>
+                        <div class="info__text">
+                            Bizning shifoxonamizda 30 yildan ortiq tajribaga ega yuqori malakali shifokorlar, infeksionistlar va tibbiy xodimlar jamoasi faoliyat yuritadi. Har bir bemor uchun individual yondashuv va professional yordam kafolatlanadi.
+                        </div>
+                        <button class="border-button">Batafsil</button>
+                    </div>
+                </div>
+                <div class="advt__apps info">
+                    <div class="info-image">
+                        <svg width="100%" height="350" viewBox="0 0 500 350" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="500" height="350" rx="15" fill="#FFF5F0"/>
+                            <rect x="150" y="50" width="200" height="250" rx="20" fill="#458FF6"/>
+                            <circle cx="250" cy="70" r="5" fill="white"/>
+                            <rect x="180" y="100" width="140" height="40" rx="10" fill="white" opacity="0.9"/>
+                            <rect x="180" y="150" width="140" height="30" rx="8" fill="white" opacity="0.7"/>
+                            <rect x="180" y="190" width="140" height="30" rx="8" fill="white" opacity="0.7"/>
+                            <rect x="180" y="230" width="140" height="30" rx="8" fill="white" opacity="0.7"/>
+                        </svg>
+                    </div>
+                    <div class="info__text-block">
+                        <h2 class="info__title">Zamonaviy uskunalar</h2>
+                        <div class="info__text">
+                            Shifoxonamiz eng so'nggi tibbiy texnologiyalar va laboratoriya uskunalari bilan ta'minlangan. Bu bizga yuqumli kasalliklarni tez va aniq aniqlash hamda samarali davolash imkonini beradi.
+                        </div>
+                        <button class="border-button">Ko'proq bilish</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="diseases" id="diseases">
+            <div class="diseases__container container">
+                <h2 class="title">Yuqumli kasalliklar haqida</h2>
+                <div class="services__text" style="text-align: center; max-width: 800px; margin: 0 auto 50px;">
+                    Yuqumli kasalliklar - bu bakteriyalar, viruslar, zamburug'lar yoki parazitlar kabi mikroorganizmlar sabab bo'ladigan kasalliklardir. Ular odam-odamga, hayvonlardan, yoki atrof-muhitdan yuqishi mumkin.
+                </div>
+                <ul class="diseases__list">
+                    <li class="disease-card">
+                        <div class="disease-card__icon">🦠</div>
+                        <div class="disease-card__title">Gripp va ARVI</div>
+                        <div class="disease-card__text">
+                            Virus infeksiyalari bo'lib, havo orqali tarqaladi. Asosiy belgilari: isitma, yo'tal, burun bitishi, bosh og'rig'i. Oldini olish: emlash, gigiyena qoidalariga rioya qilish.
+                        </div>
+                    </li>
+                    <li class="disease-card">
+                        <div class="disease-card__icon">🔬</div>
+                        <div class="disease-card__title">Gepatit</div>
+                        <div class="disease-card__text">
+                            Jigar yallig'lanish kasalligi. A, B, C, D, E turlari mavjud. Virus orqali yuqadi. Belgilari: sarg'ayish, charchoq, ishtahasizlik. Emlash mavjud.
+                        </div>
+                    </li>
+                    <li class="disease-card">
+                        <div class="disease-card__icon">💉</div>
+                        <div class="disease-card__title">Qizilcha va qizamiq</div>
+                        <div class="disease-card__text">
+                            Bolalarda ko'p uchraydigan virusli kasalliklar. Terida dog'lar paydo bo'ladi, isitma ko'tariladi. Emlash orqali oldini olish mumkin.
+                        </div>
+                    </li>
+                    <li class="disease-card">
+                        <div class="disease-card__icon">🌡️</div>
+                        <div class="disease-card__title">Ichak infeksiyalari</div>
+                        <div class="disease-card__text">
+                            Iflos suv, yuvilib olmagan ovqatlar orqali yuqadi. Belgilari: ich ketish, qusish, qorin og'rig'i, isitma. Gigienik qoidalarga rioya qilish muhim.
+                        </div>
+                    </li>
+                    <li class="disease-card">
+                        <div class="disease-card__icon">🦟</div>
+                        <div class="disease-card__title">Maljariya</div>
+                        <div class="disease-card__text">
+                            Chivin tishi orqali yuqadigan og'ir kasallik. Isitma, titroq, terlash bilan kechadi. Tropik mintaqalarda tarqalgan. Davolanishi mumkin.
+                        </div>
+                    </li>
+                    <li class="disease-card">
+                        <div class="disease-card__icon">🫁</div>
+                        <div class="disease-card__title">Sil kasalligi</div>
+                        <div class="disease-card__text">
+                            O'pka va boshqa organlarni zararlovchi bakterial kasallik. Havo orqali yuqadi. Uzoq muddatli davolanish talab etadi. Erta aniqlash muhim.
+                        </div>
+                    </li>
+                </ul>
+                
+                <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 50px; border-radius: 20px; margin-top: 50px;">
+                    <h3 style="font-size: 28px; margin-bottom: 20px; text-align: center;">⚠️ Yuqumli kasalliklardan himoyalanish</h3>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 30px; margin-top: 30px;">
+                        <div>
+                            <h4 style="font-size: 20px; margin-bottom: 10px;">🧼 Gigiena</h4>
+                            <p>Qo'llarni tez-tez sovun bilan yuving, ayniqsa ovqatlanishdan oldin va jamoat joylaridan keyin.</p>
+                        </div>
+                        <div>
+                            <h4 style="font-size: 20px; margin-bottom: 10px;">💉 Emlash</h4>
+                            <p>O'z vaqtida emlash jadvallarga rioya qiling. Ko'plab yuqumli kasalliklardan emlash orqali himoyalanish mumkin.</p>
+                        </div>
+                        <div>
+                            <h4 style="font-size: 20px; margin-bottom: 10px;">🍎 Sog'lom turmush</h4>
+                            <p>To'g'ri ovqatlanish, jismoniy faollik va yetarli uyqu immunitetni mustahkamlaydi.</p>
+                        </div>
+                        <div>
+                            <h4 style="font-size: 20px; margin-bottom: 10px;">🏥 Tez murojaat</h4>
+                            <p>Kasallik belgilari paydo bo'lganda darhol shifokorga murojaat qiling. Erta tashxis - muvaffaqiyatli davolanish kaliti.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div style="margin-top: 60px; text-align: center; background: #F7F9FC; padding: 50px; border-radius: 20px;">
+                    <h3 style="font-size: 32px; margin-bottom: 20px; color: #000;">📞 Aloqa ma'lumotlari</h3>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 30px; margin-top: 30px; text-align: left;">
+                        <div>
+                            <p style="font-weight: 700; color: #458FF6; margin-bottom: 5px;">📍 Manzil:</p>
+                            <p style="color: #7D7987;">Sirdaryo viloyati, Sirdaryo shahri</p>
+                        </div>
+                        <div>
+                            <p style="font-weight: 700; color: #458FF6; margin-bottom: 5px;">☎️ Telefon:</p>
+                            <p style="color: #7D7987;">+998 (67) 223-XX-XX</p>
+                        </div>
+                        <div>
+                            <p style="font-weight: 700; color: #458FF6; margin-bottom: 5px;">⏰ Ish vaqti:</p>
+                            <p style="color: #7D7987;">Dushanba-Yakshanba: 24/7</p>
+                        </div>
+                        <div>
+                            <p style="font-weight: 700; color: #458FF6; margin-bottom: 5px;">🚑 Tez yordam:</p>
+                            <p style="color: #7D7987;">103</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__h-container h-container">
+            <div class="footer__main-info">
+                <div class="footer__logo logo">
+                    <svg class="logo__logo-img" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M20 40C31.0457 40 40 31.0457 40 20C40 8.9543 31.0457 0 20 0C8.9543 0 0 8.9543 0 20C0 31.0457 8.9543 40 20 40Z" fill="white"/>
+                        <path d="M20 10V30M10 20H30" stroke="#458FF6" stroke-width="3" stroke-linecap="round"/>
+                    </svg>
+                    Sirdaryo YKSh
+                </div>
+                <div class="footer__text">
+                    Sirdaryo viloyati Yuqumli kasalliklar shifoxonasi - zamonaviy tibbiy xizmatlar va professional yordam markazi.
+                </div>
+                <div class="footer__copy">&copy; Sirdaryo YKSh 2024. Barcha huquqlar himoyalangan</div>
+            </div>
+            <div class="footer__navigation navigation">
+                <div class="navigation__title">Shifoxona</div>
+                <ul class="navigation__list">
+                    <li class="navigation__item"><a href="#about" class="navigation__link">Biz haqimizda</a></li>
+                    <li class="navigation__item"><a href="#services" class="navigation__link">Xizmatlar</a></li>
+                    <li class="navigation__item"><a href="#diseases" class="navigation__link">Kasalliklar</a></li>
+                    <li class="navigation__item"><a href="#" class="navigation__link">Shifokorlar</a></li>
+                </ul>
+            </div>
+            <div class="footer__navigation navigation">
+                <div class="navigation__title">Bo'limlar</div>
+                <ul class="navigation__list">
+                    <li class="navigation__item"><a href="#" class="navigation__link">Statsionar</a></li>
+                    <li class="navigation__item"><a href="#" class="navigation__link">Laboratoriya</a></li>
+                    <li class="navigation__item"><a href="#" class="navigation__link">Diagnostika</a></li>
+                    <li class="navigation__item"><a href="#" class="navigation__link">Emlash xonasi</a></li>
+                </ul>
+            </div>
+            <div class="footer__navigation navigation">
+                <div class="navigation__title">Yordam</div>
+                <ul class="navigation__list">
+                    <li class="navigation__item"><a href="#" class="navigation__link">Yordam markazi</a></li>
+                    <li class="navigation__item"><a href="#" class="navigation__link">Aloqa</a></li>
+                    <li class="navigation__item"><a href="#" class="navigation__link">Ko'rsatmalar</a></li>
+                    <li class="navigation__item"><a href="#" class="navigation__link">Tez-tez so'raladigan savollar</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Menu button functionality for mobile
+        document.querySelector('.menu__menu-button').addEventListener('click', function() {
+            const sublist = document.querySelector('.menu__sublist');
+            if (sublist.style.display === 'flex') {
+                sublist.style.display = 'none';
+            } else {
+                sublist.style.display = 'flex';
+                sublist.style.flexDirection = 'column';
+                sublist.style.position = 'absolute';
+                sublist.style.top = '60px';
+                sublist.style.right = '20px';
+                sublist.style.background = 'white';
+                sublist.style.padding = '20px';
+                sublist.style.borderRadius = '10px';
+                sublist.style.boxShadow = '0 10px 30px rgba(0,0,0,0.1)';
+            }
+        });
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Add animation on scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -100px 0px'
+        };
+
+        const observer = new IntersectionObserver(function(entries) {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.services__item, .disease-card, .info').forEach(el => {
+            el.style.opacity = '0';
+            el.style.transform = 'translateY(30px)';
+            el.style.transition = 'all 0.6s ease-out';
+            observer.observe(el);
+        });
+    </script>
+</body>
 </html>
